@@ -1,6 +1,31 @@
+body {
+
+background: -webkit-linear-gradient(83deg, rgb(254, 251, 216), rgb(165, 160, 99));
+background: linear-gradient(83deg, rgb(254, 251, 216), rgb(165, 160, 99));
+
+
+}
 p
 {
   font-family: fantasy;
   font-size: 1em;
   color: brown;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+}
+body {
+  width: 90%;
+  margin: auto;
+}
+blockquote {
+  width: 50%;
+  color: grey;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-left: 3px solid brown;
+  padding-left: 30px;
 }
