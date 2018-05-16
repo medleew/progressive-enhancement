@@ -5,22 +5,27 @@ background: linear-gradient(83deg, rgb(254, 251, 216), rgb(165, 160, 99));
 
 
 }
+
 p
 {
   font-family: fantasy;
   font-size: 1em;
   color: brown;
 }
+
 a:visited {
     color: green;
 }
+
 a:hover {
     color: hotpink;
 }
+
 body {
   width: 90%;
   margin: auto;
 }
+
 blockquote {
   width: 50%;
   color: grey;
@@ -28,4 +33,48 @@ blockquote {
   margin-bottom: 80px;
   border-left: 3px solid brown;
   padding-left: 30px;
+  font-style: italic;
+}
+
+table, th, td {
+  border: 2px solid black;
+}
+
+.TableLineOne, .TableLineThree, .TableLineFive {
+  background-color: grey;
+  opacity: 0.9;
+}
+
+.TableLineTwo, .TableLineFour {
+  background-color: white;
+}
+
+header .BgColor {
+  background-color: #ffd966;
+
+}
+
+.mal, .bien {
+  text-transform: capitalize;
+}
+
+.mal {
+  color: red;
+}
+
+.bien {
+  color: green;
+}
+
+li {
+  list-style: none;
+}
+
+.image1 {
+  align-items: center;
+  padding: 0 10px 0 0;
+}
+
+.ParagraphImage1 {
+  display: inline;
 }
