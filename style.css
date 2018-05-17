@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
 body {
 
 background: -webkit-linear-gradient(83deg, rgb(254, 251, 216), rgb(165, 160, 99));
 background: linear-gradient(83deg, rgb(254, 251, 216), rgb(165, 160, 99));
-
-
+font-family: 'Open Sans', sans-serif;
 }
 
 p
@@ -38,6 +39,7 @@ blockquote {
 
 table, th, td {
   border: 2px solid black;
+  border-collapse: collapse;
 }
 
 .TableLineOne, .TableLineThree, .TableLineFive {
@@ -71,10 +73,41 @@ li {
 }
 
 .image1 {
-  align-items: center;
+  /* float: left;
+  position: relative;
   padding: 0 10px 0 0;
+  width: 30%;
+  display: inline-block;
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  position: static;
+  float: right;
+  display:inline;
+  position: relative;
+  left: 80px;
+  bottom: 300px; */
+  float: right;
+  display: inline-block;
+  position: absolute;
+  width: 50%;
+  right: 20px;
+  margin-top: 20px;
+
 }
 
 .ParagraphImage1 {
-  display: inline;
+  position: static;
+  display: inline-block;
+  float: left;
+  width: 40%;
+  font-size: 1.2em;
+}
+
+header p {
+  font-weight: bold;
+
 }
