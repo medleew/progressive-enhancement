@@ -1,73 +1,234 @@
-* {
-	margin: 0;
-	padding: 0;
-
-}
-
 body {
-    /* background-color: blue; */
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+  height: 100%;
 }
 
-/* .nav {
-    display: flex;
-    flex-direction: column;
-}
-
-.profilImage {
-    flex: 1;
-}
-nav ul {
-	display: flex;
-	flex-direction: column;
+.logoEntete {
+  width: 100px;
 
 }
 
-nav li {
+.header {
+  background-color: #252529;
+}
+
+.header ul {
+  margin: 0px 100px;
+  padding-top: 10px ;
+  padding-bottom: 10px ;
 
 }
 
-.banner {
-	display: flex;
-} */
-
-.container {
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
+.header a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-ul {
-	display: flex;
-	list-style: none;
-	background-color: black;
+.entete {
+  list-style-type: none;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
 }
 
-ul a {
-	color: white;
+.entete li {
+  margin: 0px 10px ;
 }
 
-.LoginRight {
-	margin-left: auto;
+ul.logIn {
+  list-style-type: none;
+  display: flex;
+  padding-top: 0px ;
+  padding-bottom: 0px;
+  margin-left: 70%;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  }
+
+li.iconLogIn {
+  margin-right: 0px;
 }
 
-ul > li {
-	flex: 1;
+li.motLogIn {
+  margin-left: 0px;
 }
 
-.banner {
-	display: flex;
-	flex-direction: row;
+.haut {
+  background-color: #1e93cc;
+  margin-top: 0;
+  padding-top: 1px;
+  padding-bottom: 40px
 }
 
-.banner img {
-	flex:1;
-	height: 40%;
+.milieu li {
+    display: flex ;
+    justify-content: center;
 }
 
-.blockRightBanner {
-	flex: 4;
-	/* justify-content: center; */
-	/* margin-left: auto; */
-	display: flex;
-	flex-direction: column;
+li.imageProfil {
+  list-style-type: none;
+  position: absolute;
+  top: 80px ;
+  left: 150px;
+}
+
+.logo {
+  width: 20% ;
+  margin-left: 40%;
+  margin-top: 2%;
+}
+
+.startBuildingNow {
+  border: 2px solid white;
+  background-color: orange;
+  padding: 15px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.citations1 {
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+main {
+  background-color: #1e93cc;
+}
+
+main ul {
+  display: flex;
+  justify-content: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  list-style-type: none;
+}
+
+main ul .maintop {
+  margin-top: 30px;
+}
+
+main ul .mainbottom {
+margin-bottom: 30px;
+}
+
+
+.citations2 {
+  text-align: center;
+  color: grey;
+}
+
+.sponsors {
+  background-color: #eeeeee;
+}
+
+.sponsors ul {
+  text-align: center;
+  justify-content: center;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px
+}
+
+.sponsors li {
+  padding: 20px 15px ;
+}
+
+.bas ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.bas li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  margin : 5px;
+  border-radius: 5px ;
+}
+
+a.docs {
+  background-color: #144269 ;
+  padding: 15px 55px ;
+}
+
+a.rest {
+  background-color: #144269 ;
+  padding : 15px 40px;
+}
+
+a.startBuilding {
+  background-color: orange;
+  padding : 15px 20px;
+}
+
+footer {
+  background-color: #252529;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: 0px
+}
+
+footer ul li {
+    margin-top: 10px ;
+    margin-bottom: 20px;
+  }
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  border-left: 1px dotted white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px ;
+}
+
+.copyright p {
+  margin-top: 0;
+  margin-left: 700px;
+
+}
+
+.home {
+  border: 0px;
+}
+
+.turlututu {
+  margin-bottom: 0px;
+}
+
+.chat img {
+  position: fixed;
+  right: 10px ;
+  bottom: 10px ;
 }
