@@ -87,8 +87,14 @@ li.imageProfil {
   left: 150px;
 }
 
+.imageProfil {
+  width: 100%;
+  position: relative;
+  top: 20px;
+}
+
 .logo {
-  width: 20% ;
+  width: 50% ;
   margin-left: 40%;
   margin-top: 2%;
 }
